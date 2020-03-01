@@ -1,0 +1,49 @@
+.box {
+    width:40px;
+
+    border:1px solid darkgray;
+    margin:1.5px;
+    background-color: antiquewhite;
+    cursor:pointer;
+}
+
+
+.boxnum {
+    width:25px;
+    padding: 3px 25px 5px 17px;
+    margin:1.5px;
+    font-weight: bold;
+    color: indianred;
+}
+
+.border1, .border2,.border3{
+    border:1px solid;
+    width:450px;
+    height: 300px;
+    font-size:13px;
+    padding:10px;
+    z-index: 90;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+ul { list-style-type:none; }
+.box input {
+    background-color: antiquewhite;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    border: 0px solid #000;
+}
+
+
+.questions{
+    display: none;
+}
+
+form{
+    background-color: honeydew;
+    border: 0.5px cadetblue;
+    width:800px;
+}
